@@ -1,0 +1,3 @@
+const MealsItem = ({ meal }: MealsItemProp) => {
+    
+}

@@ -14,5 +14,5 @@ export const getMeal = async(data: string): Promise<Meal[]> => {
 
 export const getMealDetail = async(data: string): Promise<MealDetail> => {
     const response = await httpClient.get(ApiConfig.getMealDetail(data))
-    return response.data.mealdetail
+    return response.data.mealdetails
 }
